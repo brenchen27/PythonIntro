@@ -1,0 +1,11 @@
+l=[1,4,9,10,23]
+print(l[1:3],l[3:])
+#
+l.append(90)
+print(l)
+#
+print(sum(l)/len(l))
+#
+l.remove(4)
+l.remove(9)
+print(l)
